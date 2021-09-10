@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
+  - id: salonbaalmann # unique identifier
     name: Friseursalon Baalmann
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://friseursalon-baalmann.de/' # URL to fetch
@@ -24,7 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
+  - id: kreativstudio-jansen
     name: Kreativstudio Jansen
     description: 'Built for anything connected to the Internet.'
     url: 'https://kreativstudio-jansen.de'
